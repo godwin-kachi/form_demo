@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form-area">
+            <div class="header">
+                <h2>Say Hello!</h2>
+            </div>
+            <form action="" method="post">
+                <div class="form-element">
+                    <div><label for="fullname">Your Name <span><sup>*</sup></span></label></div>
+                    <input  id="names" type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
+                <div class="form-element">
+                    <div> <label for="email">Your Email</label></div>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-element">
+                    <div><label for="needed_services">Needed Services</label></div>
+
+                    <select name="services" id="needed_services">
+                        <option value="" selected>Choose Services</option>
+                        <option value="buying">Purchases</option>
+                        <option value="selling">Sales</option>
+                        <option value="repairs">Maintainance</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <div><label for="budget">Budget</label></div>
+                    <select name="services" id="budget">
+                        <option value="" selected>Choose Services</option>
+                        <option value="below 50k">1000 - 50,000</option>
+                        <option value="350k">51,000 - 550,000</option>
+                        <option value="1050k">600,000 - 1,500,000</option>
+                        <option value="1.6 above">Above 1.5M</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                   <div> <label for="messages">Your Message</label></div>
+                    <textarea name="messages" id="messages" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-element flush-right">
+                    <input type="submit" value="Submit">
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
